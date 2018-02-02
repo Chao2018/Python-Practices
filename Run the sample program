@@ -1,0 +1,5 @@
+source ~/tensorflow/bin/activate
+pip install pandas
+git clone https://github.com/tensorflow/models
+cd models/samples/core/get_started/
+python premade_estimator.py
